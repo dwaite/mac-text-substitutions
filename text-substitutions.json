@@ -1,0 +1,46 @@
+{
+  "(opt)": {
+    "enabled": true,
+    "replacement": "\u2325"
+  },
+  "(cmd)": {
+    "enabled": true,
+    "replacement": "\u2318"
+  },
+  "(ctrl)": {
+    "enabled": true,
+    "replacement": "\u2303"
+  },
+  "(shift)": {
+    "enabled": true,
+    "replacement": "\u21e7"
+  },
+  "(caps)": {
+    "enabled": true,
+    "replacement": "\u21ea"
+  },
+  "(del)": {
+    "enabled": true,
+    "replacement": "\u2326"
+  },
+  "(bs)": {
+    "enabled": true,
+    "replacement": "\u232b"
+  },
+  "(esc)": {
+    "enabled": true,
+    "replacement": "\u238b"
+  },
+  "(eject)": {
+    "enabled": true,
+    "replacement": "\u23cf"
+  },
+  "(return)": {
+    "enabled": true,
+    "replacement": "\u23ce"
+  },
+  "(broken)": {
+    "enabled": true,
+    "replacement": "\ufffd"
+  }
+}

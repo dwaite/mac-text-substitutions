@@ -1,0 +1,43 @@
+While OS X 10.6 (Snow Leopard) now ships with text substitutions, they are 
+mostly boring things like changing (r) into '¬Æ`. What _really_ was needed,
+and (was) missing is a set of substitutions that would be useful for
+developers, especially for spicing up documentation, emails and IM
+conversations with things like graphical keyboard shortcuts.
+
+So now you have it: This package allows you to import new text substitutions
+in, and contains a list of substitutions which should be useful for 
+describing various keyboard shortcuts:
+
+(cmd)		⌘
+(opt)		⌥
+(shift)		⇧
+(caps)		⇪
+(ctrl)		⌃
+(del)		⌦
+(bs)		⌫
+(esc)		⎋
+(eject)		⏏
+(return)	⏎
+(broken)	�	
+
+So, to explain to someone how to get the Force Quit… dialog on the mac, you can simply tell them to type (cmd) (opt) (esc), which will be converted to ⌘ ⌥ ⎋. Now they just have to figure out which key ⎋ is!
+
+WARNING: This works for me, but might corrupt some of the user preferences for your account if I happen to have a bug. Hell, it might make your machine catch on fire.  While I won't help you fix your preferences in the first case, or send you money for a machine in the second, I would appreciate you emailing me bug reports/photo of the machine in flame, if you happen to have a chance.
+
+INSTALL
+
+Simply type 
+
+	ruby1.9 install.rb 
+
+Yes, subtle hint - this script requires ruby 1.9 just because ruby 1.9 has ordered hashes, and I happen to be lazy.
+
+To verify that the new settings installed correctly, go to the Language & Text Preference Pane:
+
+	open /System/Library/PreferencePanes/Localization.prefPane/
+
+(or type "text substitution" into spotlight)
+
+HACKING
+
+If you happen to have a new substitution you like, feel free to add it to text-substitutions.json and send it my way. The dump.rb script will dump all of your current text substitutions to the JSON file, if you happen to have made the text substitution in the OS X GUI already.
