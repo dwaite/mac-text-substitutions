@@ -1,5 +1,5 @@
 While OS X 10.6 (Snow Leopard) now ships with text substitutions, they are 
-mostly boring things like changing (r) into '¬Æ`. What _really_ was needed,
+mostly boring things like changing (r) into `®'. What _really_ was needed,
 and (was) missing is a set of substitutions that would be useful for
 developers, especially for spicing up documentation, emails and IM
 conversations with things like graphical keyboard shortcuts.
